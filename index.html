@@ -1,0 +1,555 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<title>Australian Cleaning Rags | Homepage</title>
+<script src="./vendor/react.js"></script>
+<script src="./vendor/react-dom.js"></script>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;font-family:'Open Sans',sans-serif;color:#000;background:#fff}
+a{color:#000}a:hover{color:#000}
+.ph{display:flex;align-items:center;justify-content:center;text-align:center;border:1.5px dashed #737373;background:rgba(115,115,115,0.06);color:#737373;font-size:14px;font-weight:600;box-sizing:border-box;padding:12px}
+.btnp{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:0 28px;background:#31BACD;color:#000;font-weight:600;font-size:16px;text-decoration:none;border-radius:6px;border:2px solid #31BACD;box-sizing:border-box}
+.btnp:hover{background:#000;border-color:#000;color:#fff}
+.btns{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:0 28px;background:#fff;color:#000;font-weight:600;font-size:16px;text-decoration:none;border-radius:6px;border:2px solid #000;box-sizing:border-box}
+.btns:hover{background:#000;color:#fff}
+.nav a{text-decoration:none;font-size:15px;font-weight:600;color:#000}
+.nav a:hover{color:#737373}
+.persona{display:flex;align-items:center;justify-content:space-between;gap:16px;height:120px;padding:0 36px;border:2px solid #000;border-radius:10px;text-decoration:none;color:#000;font-size:26px;font-weight:700;background:#fff;box-sizing:border-box}
+.persona:hover{background:#31BACD;border-color:#31BACD;color:#000}
+.tbl{width:100%;border-collapse:collapse;font-size:16px}
+.tbl th{text-align:left;font-weight:600;font-size:14px;color:#737373;padding:14px 20px;border-bottom:2px solid #000}
+.tbl td{padding:16px 20px;border-bottom:1px solid rgba(115,115,115,0.3);vertical-align:top;line-height:1.5}
+.field{display:flex;flex-direction:column;gap:6px;font-size:14px;font-weight:600}
+.field input,.field textarea{font-family:'Open Sans',sans-serif;font-size:16px;padding:12px 14px;border:1.5px solid #737373;border-radius:6px;background:#fff;color:#000}
+.field input:focus,.field textarea:focus{outline:2px solid #31BACD;border-color:#31BACD}
+.faqbtn{width:100%;display:flex;justify-content:space-between;align-items:center;gap:24px;background:none;border:0;padding:24px 0;font-family:'Open Sans',sans-serif;font-size:19px;font-weight:600;color:#000;text-align:left;cursor:pointer}
+.faqbtn:hover{color:#737373}
+.foot a{color:#fff;text-decoration:none}.foot a:hover{color:#31BACD}
+</style>
+</helmet>
+<div style="width: 100%; min-width: 1280px; min-height: 100vh; display: flex; flex-direction: column; background: #FFFFFF">
+
+<!-- NAV -->
+<header class="nav" style="position: sticky; top: 0; z-index: 10; display: flex; align-items: center; justify-content: space-between; height: 84px; padding: 0 120px; background: #FFFFFF; border-bottom: 1px solid rgba(115,115,115,0.25); flex-shrink: 0">
+<div style="display: flex; align-items: center; gap: 16px">
+<div class="ph" style="width: 200px; height: 52px; font-size: 12px">[Logo placeholder: Australian Cleaning Rags]</div>
+</div>
+<nav aria-label="Main" style="display: flex; align-items: center; gap: 36px">
+<a href="#wholesale">Wholesale</a>
+<a href="#retail">Retail</a>
+<a href="#armour-fibre">Armour Fibre</a>
+<a href="#faq">FAQ</a>
+<a href="#contact">Contact</a>
+</nav>
+<div style="display: flex; align-items: center; gap: 20px">
+<a href="tel:1300007247" style="display: flex; align-items: center; gap: 8px; font-size: 16px; font-weight: 700">
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"></path></svg>
+1300 007 247</a>
+<a class="btnp" href="#quote" style="min-height: 44px; padding: 0 20px; font-size: 15px">Enquire Now</a>
+</div>
+</header>
+
+<!-- HERO -->
+<section style="display: flex; gap: 64px; align-items: center; padding: 88px 120px 80px; flex-shrink: 0">
+<div style="display: flex; flex-direction: column; gap: 28px; width: 700px; flex-shrink: 0">
+<div style="display: flex; gap: 10px; align-items: center; font-size: 14px; font-weight: 600; color: #737373; letter-spacing: 0.06em; text-transform: uppercase">
+<span style="width: 28px; height: 3px; background: #31BACD"></span>Wholesale · Retail · Armour Fibre Microfibre</div>
+<h1 style="margin: 0; font-size: 40px; line-height: 1.22; font-weight: 700; letter-spacing: -0.01em">Australia's Trusted Wholesale Cleaning Rags Supplier</h1>
+<p style="margin: 0; font-size: 18px; line-height: 1.65; color: #737373">Bulk cotton cleaning rags, lint free cloths, flannel and industrial wiping rags, plus premium microfibre; dispatched Australia-wide, from Sydney to Perth. Family-owned, Sedex/SMETA-accredited, with over 1,000 tonnes of bulk cleaning rags in stock and in transit.&nbsp;</p>
+<div style="display: flex; gap: 16px; align-items: center; flex-wrap: wrap">
+<a class="btnp" href="#quote">Request a Wholesale Quote
+<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+<a class="btns" href="#retail">Shop Retail</a>
+</div>
+<a href="tel:1300007247" style="display: flex; align-items: center; gap: 10px; font-size: 16px; color: #000; text-decoration: none">
+<span style="color: #737373">Prefer to talk? Call</span><strong style="font-weight: 700; border-bottom: 2px solid #31BACD">1300 007 247</strong></a>
+</div>
+<div style="display: flex; flex-direction: column; gap: 16px; flex-grow: 1">
+<div class="ph" style="height: 360px; border-radius: 12px">[Hero photo: bulk cleaning rags on pallets / warehouse]</div>
+<div style="display: flex; gap: 16px">
+<div class="ph" style="flex-grow: 1; height: 150px; border-radius: 12px">[Product photo: White T-Shirt Rags]</div>
+<div class="ph" style="flex-grow: 1; height: 150px; border-radius: 12px">[Product photo: Armour Fibre packaging]</div>
+</div>
+</div>
+</section>
+
+<!-- TRUST BAR -->
+<section aria-label="Why buyers trust us" style="display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); margin: 0 120px; border-top: 1px solid rgba(115,115,115,0.3); border-bottom: 1px solid rgba(115,115,115,0.3); flex-shrink: 0">
+<div style="display: flex; gap: 16px; align-items: center; padding: 28px 24px">
+<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#31BACD" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>
+<div><div style="font-size: 20px; font-weight: 700">20+ Years</div><div style="font-size: 14px; color: #737373">Industry experience</div></div>
+</div>
+<div style="display: flex; gap: 16px; align-items: center; padding: 28px 24px; border-left: 1px solid rgba(115,115,115,0.3)">
+<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#31BACD" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 8l-9-5-9 5v8l9 5 9-5z"></path><path d="M3 8l9 5 9-5M12 13v8"></path></svg>
+<div><div style="font-size: 20px; font-weight: 700">1,000+ Tonnes</div><div style="font-size: 14px; color: #737373">In stock &amp; in transit</div></div>
+</div>
+<div style="display: flex; gap: 16px; align-items: center; padding: 28px 24px; border-left: 1px solid rgba(115,115,115,0.3)">
+<div class="ph" style="width: 56px; height: 56px; padding: 4px; font-size: 9px; flex-shrink: 0">[Sedex logo]</div>
+<div><div style="font-size: 20px; font-weight: 700">Sedex</div><div style="font-size: 14px; color: #737373">Ethically accredited</div></div>
+</div>
+<div style="display: flex; gap: 16px; align-items: center; padding: 28px 24px; border-left: 1px solid rgba(115,115,115,0.3)">
+<div class="ph" style="width: 56px; height: 56px; padding: 4px; font-size: 9px; flex-shrink: 0">[SMETA logo]</div>
+<div><div style="font-size: 20px; font-weight: 700">SMETA</div><div style="font-size: 14px; color: #737373">Ethically accredited</div></div>
+</div>
+<div style="display: flex; gap: 16px; align-items: center; padding: 28px 24px; border-left: 1px solid rgba(115,115,115,0.3)">
+<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#31BACD" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"></path></svg>
+<div><div style="font-size: 20px; font-weight: 700">Family-Owned</div><div style="font-size: 14px; color: #737373">Australian family-owned and operated</div></div>
+</div>
+</section>
+
+<!-- PERSONA SPLIT -->
+<section id="persona" style="display: flex; flex-direction: column; align-items: center; gap: 32px; padding: 72px 120px 88px; flex-shrink: 0">
+<h2 style="margin: 0; font-size: 28px; font-weight: 600; text-align: center">What Type of Buyer Are You?</h2>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; width: 100%">
+<a class="persona" href="#wholesale">
+<span style="display: flex; align-items: center; gap: 20px">
+<svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 20h20M4 20V10l8-5 8 5v10"></path><rect x="8" y="13" width="8" height="7"></rect><path d="M8 16.5h8"></path></svg>
+I'm Buying Wholesale</span>
+<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6"></path></svg>
+</a>
+<a class="persona" href="#retail">
+<span style="display: flex; align-items: center; gap: 20px">
+<svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 7h14l-1.2 12.1a1 1 0 0 1-1 .9H7.2a1 1 0 0 1-1-.9z"></path><path d="M9 10V6a3 3 0 0 1 6 0v4"></path></svg>
+I'm Buying Retail</span>
+<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6"></path></svg>
+</a>
+</div>
+</section>
+
+<!-- HOW IT'S MADE -->
+<section id="how-its-made" style="display: flex; flex-direction: column; align-items: center; gap: 40px; padding: 24px 120px 104px; flex-shrink: 0">
+<h2 style="margin: 0; font-size: 28px; font-weight: 600; text-align: center">How Our Cleaning Rags Are Made</h2>
+<div class="ph" style="flex-direction: column; gap: 20px; width: 960px; height: 540px; border-radius: 12px">
+<span style="display: flex; align-items: center; justify-content: center; width: 80px; height: 80px; border-radius: 50%; background: #31BACD"><svg width="34" height="34" viewBox="0 0 24 24" fill="#000" aria-hidden="true"><path d="M8 5v14l11-7z"></path></svg></span>
+<span>[Video placeholder: How our cleaning rags are made]</span>
+</div>
+</section>
+
+<!-- PROBLEMS -->
+<section style="display: flex; flex-direction: column; gap: 48px; padding: 96px 120px; background: rgba(115,115,115,0.07); flex-shrink: 0">
+<div style="display: flex; flex-direction: column; gap: 14px; width: 760px">
+<h2 style="margin: 0; font-size: 28px; font-weight: 600">What These Problems Mean for Your Business</h2>
+<p style="margin: 0; font-size: 17px; line-height: 1.6; color: #737373">If you've bought rags or wipers for your business before, you know the pain points:</p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px">
+<div style="display: flex; flex-direction: column; gap: 14px; padding: 32px; background: #FFFFFF; border-radius: 10px">
+<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 8l-9-5-9 5v8l9 5 9-5z"></path><path d="M4 4l16 16"></path></svg>
+<h3 style="margin: 0; font-size: 19px; font-weight: 600">Stock-outs at the worst possible time</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #737373">A supplier who can't guarantee availability leaves your production line, detailing bay, or cleaning crew waiting.</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 14px; padding: 32px; background: #FFFFFF; border-radius: 10px">
+<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="8" height="8"></rect><rect x="13" y="3" width="8" height="8"></rect><rect x="3" y="13" width="8" height="8"></rect><path d="M17 14v6M14 17h6"></path></svg>
+<h3 style="margin: 0; font-size: 19px; font-weight: 600">Rigid quantities</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #737373">Fixed pack sizes that leave you overstocked or constantly re-ordering, instead of flexing to what your business actually needs.</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 14px; padding: 32px; background: #FFFFFF; border-radius: 10px">
+<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l9 16H3z"></path><path d="M12 10v4M12 17h.01"></path></svg>
+<h3 style="margin: 0; font-size: 19px; font-weight: 600">Inconsistent quality between orders</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #737373">A "bulk" order that looks fine on the invoice but hides contamination risk (zippers, buttons, mixed fibre) once it reaches sensitive machinery or solvent work.</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 14px; padding: 32px; background: #FFFFFF; border-radius: 10px">
+<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="6" width="20" height="13" rx="2"></rect><circle cx="12" cy="12.5" r="2.5"></circle><path d="M6 3h12"></path></svg>
+<h3 style="margin: 0; font-size: 19px; font-weight: 600">Cash flow pressure</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #737373">Suppliers who demand payment upfront with no credit terms, tying up working capital you need elsewhere.</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 14px; padding: 32px; background: #FFFFFF; border-radius: 10px">
+<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 14v-2a8 8 0 0 1 16 0v2"></path><rect x="2" y="14" width="4" height="6" rx="1"></rect><rect x="18" y="14" width="4" height="6" rx="1"></rect></svg>
+<h3 style="margin: 0; font-size: 19px; font-weight: 600">No real account support</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #737373">Being pushed to a generic call centre instead of a dedicated contact who understands your industry and volumes.</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 14px; padding: 32px; background: #FFFFFF; border-radius: 10px">
+<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"></path><path d="M9 9l6 6M15 9l-6 6"></path></svg>
+<h3 style="margin: 0; font-size: 19px; font-weight: 600">No compliance assurance</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #737373">No visibility on ethical sourcing or supply chain standards, which is now a procurement requirement for many corporate and government buyers.</p>
+</div>
+</div>
+<div style="margin: 0; font-size: 20px; line-height: 1.55; font-weight: 600; width: 1208px; height: 110px"><p>Australian Cleaning Rags gives you a simpler way to source cleaning rags, with consistent quality, reliable supply, flexible quantities, and pricing and terms that can grow with your business.</p></div>
+</section>
+
+<!-- WHY PARTNER -->
+<section style="display: flex; flex-direction: column; gap: 48px; padding: 96px 120px; flex-shrink: 0">
+<div style="display: flex; flex-direction: column; gap: 12px">
+<div style="font-size: 14px; font-weight: 600; color: #737373; letter-spacing: 0.06em; text-transform: uppercase">Our four pillars</div>
+<h2 style="margin: 0; font-size: 28px; font-weight: 600">Why Partner With Us</h2>
+</div>
+<div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 24px">
+<div style="display: flex; flex-direction: column; gap: 16px; padding: 32px 28px; border-top: 3px solid #31BACD; background: rgba(115,115,115,0.07); border-radius: 0 0 10px 10px">
+<div style="width: 40px; height: 40px; border-radius: 50%; background: #31BACD; display: flex; align-items: center; justify-content: center; flex-shrink: 0"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"></path><path d="M9 12l2 2 4-4"></path></svg></div>
+<h3 style="margin: 0; font-size: 20px; font-weight: 600">Reliability</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #737373">We audit our suppliers regularly, so every order matches the last, with no surprises when it reaches your machinery or your customers.</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 16px; padding: 32px 28px; border-top: 3px solid #31BACD; background: rgba(115,115,115,0.07); border-radius: 0 0 10px 10px">
+<div style="width: 40px; height: 40px; border-radius: 50%; background: #31BACD; display: flex; align-items: center; justify-content: center; flex-shrink: 0"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 8l-9-5-9 5v8l9 5 9-5z"></path><path d="M3 8l9 5 9-5M12 13v8"></path></svg></div>
+<h3 style="margin: 0; font-size: 20px; font-weight: 600">Availability</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #737373">Over 1,000 tonnes held in stock and in transit at any given time, with orders leaving our warehouse within 24 hours.</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 16px; padding: 32px 28px; border-top: 3px solid #31BACD; background: rgba(115,115,115,0.07); border-radius: 0 0 10px 10px">
+<div style="width: 40px; height: 40px; border-radius: 50%; background: #31BACD; display: flex; align-items: center; justify-content: center; flex-shrink: 0"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 14v-2a8 8 0 0 1 16 0v2"></path><rect x="2" y="14" width="4" height="6" rx="1"></rect><rect x="18" y="14" width="4" height="6" rx="1"></rect></svg></div>
+<h3 style="margin: 0; font-size: 20px; font-weight: 600">Customer Service</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #737373">Fast order turnaround and a dedicated reseller hotline, not a queue.</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 16px; padding: 32px 28px; border-top: 3px solid #31BACD; background: rgba(115,115,115,0.07); border-radius: 0 0 10px 10px">
+<div style="width: 40px; height: 40px; border-radius: 50%; background: #31BACD; display: flex; align-items: center; justify-content: center; flex-shrink: 0"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="9" r="6"></circle><path d="M8.5 13.5L7 22l5-3 5 3-1.5-8.5"></path></svg></div>
+<h3 style="margin: 0; font-size: 20px; font-weight: 600">Compliance</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #737373">Sedex and SMETA accredited for ethical and responsible sourcing.</p>
+</div>
+</div>
+<div style="display: flex; gap: 24px; align-items: center; padding: 28px 32px; border: 1px solid rgba(115,115,115,0.3); border-radius: 10px">
+<div style="font-size: 40px; font-weight: 700; color: #000; flex-shrink: 0">20+</div>
+<p style="margin: 0; font-size: 17px; line-height: 1.6"><strong style="font-weight: 600">Years of Industry Experience</strong>&nbsp;-&nbsp;<span style="color: rgb(115, 115, 115)">An Australian family-owned and operated company trusted by automotive, mining, hospitality, healthcare and manufacturing businesses nationwide.</span></p>
+</div>
+</section>
+
+<!-- PRODUCT RANGE -->
+<section id="products" style="display: flex; flex-direction: column; gap: 40px; padding: 96px 120px; background: rgba(115,115,115,0.07); flex-shrink: 0">
+<div style="display: flex; flex-direction: column; gap: 12px">
+<div style="font-size: 14px; font-weight: 600; color: #737373; letter-spacing: 0.06em; text-transform: uppercase">Product Range</div>
+<h2 style="margin: 0; font-size: 28px; font-weight: 600">Cleaning Rags &amp; Cotton Cloths</h2>
+</div>
+<div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px">
+<article style="display: flex; flex-direction: column; background: #FFFFFF; border-radius: 10px; overflow: hidden">
+<div class="ph" style="height: 220px; border: 0; border-bottom: 1.5px dashed #737373">[Product photo: White T-Shirt Rags]</div>
+<div style="display: flex; flex-direction: column; gap: 10px; padding: 28px">
+<h3 style="margin: 0; font-size: 20px; font-weight: 600">White T-Shirt Rags</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #737373">Premium, 100% cotton, metal-detected, lint free cotton cloth. Colourless, the go-to bulk t-shirt rag for painters, printers, mechanics, sensitive machinery and solvent work.</p>
+</div>
+</article>
+<article style="display: flex; flex-direction: column; background: #FFFFFF; border-radius: 10px; overflow: hidden">
+<div class="ph" style="height: 220px; border: 0; border-bottom: 1.5px dashed #737373">[Product photo: Coloured T-Shirt Rags]</div>
+<div style="display: flex; flex-direction: column; gap: 10px; padding: 28px">
+<h3 style="margin: 0; font-size: 20px; font-weight: 600">Coloured T-Shirt Rags</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #737373">Our most versatile bulk seller and a favourite mechanic rag. A soft, highly absorbent knit trusted across automotive, marine and aviation for everyday workshop rags and general cleaning cloths.</p>
+</div>
+</article>
+<article style="display: flex; flex-direction: column; background: #FFFFFF; border-radius: 10px; overflow: hidden">
+<div class="ph" style="height: 220px; border: 0; border-bottom: 1.5px dashed #737373">[Product photo: Mixed Cotton Rags]</div>
+<div style="display: flex; flex-direction: column; gap: 10px; padding: 28px">
+<h3 style="margin: 0; font-size: 20px; font-weight: 600">Mixed Cotton Rags</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #737373">The most budget-friendly bag of rags on the market. Soft, cotton-rich cleaning cloths cut to wiper size, built for oily rags and heavy-duty spill clean-up across mining, manufacturing and workshops. Available as a 10kg bag of rags, our most popular weight, right through to full pallet volumes.</p>
+</div>
+</article>
+</div>
+<div style="display: flex; flex-direction: column; gap: 16px; padding: 32px; background: #FFFFFF; border-radius: 10px">
+<h3 style="margin: 0; font-size: 19px; font-weight: 600">Also available</h3>
+<table class="tbl">
+<thead><tr><th style="width: 34%">Product</th><th>Best For</th></tr></thead>
+<tbody>
+<tr><td style="font-weight: 600">White Towel</td><td style="color: #737373">Thick terry towelling rags for detailing, hospitality and food service</td></tr>
+<tr><td style="font-weight: 600">White Cotton</td><td style="color: #737373">Premium, 100% recycled, lint free white cotton, metal-detected, with zippers and buttons removed. Best value for solvent and thinner work</td></tr>
+<tr><td style="font-weight: 600">White Cotton Waste</td><td style="color: #737373">Absorbent, low-cost oily rag / cotton waste for workshops, engineering, mining, food processing and healthcare</td></tr>
+<tr><td style="font-weight: 600">Coloured Towel</td><td style="color: #737373">Thick terry towelling rags for detailing, hospitality and food service</td></tr>
+<tr><td style="font-weight: 600">Coloured Cotton Waste</td><td style="color: #737373">Absorbent, low-cost oily rag / cotton waste for workshops, engineering, mining, food processing and healthcare</td></tr>
+<tr><td style="font-weight: 600">Flannel</td><td style="color: #737373">Soft, lint free flannel cloth for glass, lenses and precision surfaces</td></tr>
+<tr><td style="font-weight: 600">Light Cotton</td><td style="color: #737373">Low-lint, medium-absorbency cloth for workshops, industrial and mechanical cleaning, adaptable across all industries</td></tr>
+<tr><td style="font-weight: 600; border-bottom: 0">Fleecy</td><td style="color: #737373; border-bottom: 0">Plush, high-friction polishing and buffing cloths</td></tr>
+</tbody>
+</table>
+</div>
+<p style="margin: 0; font-size: 16px; line-height: 1.65; color: #737373; width: 1000px">Every product is matched to real industries we already supply: automotive, panel beating, painting and coating, printing, marine, aviation, mining, manufacturing, hospitality, healthcare, janitorial, government and more, as a trusted cleaning rags supplier and industrial wiping rags supplier Australia-wide.</p>
+</section>
+
+<!-- ARMOUR FIBRE -->
+
+
+<!-- WHOLESALE -->
+<section id="armour-fibre" style="display: flex; flex-direction: column; gap: 48px; padding: 104px 120px; background: #000000; color: #FFFFFF; flex-shrink: 0">
+<div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 64px; width: 1199px; height: 257px">
+<div style="display: flex; flex-direction: column; gap: 18px; width: 913px; height: 261px">
+<div style="display: inline-flex; align-self: flex-start; padding: 6px 12px; border-radius: 4px; background: #31BACD; color: #000; font-size: 13px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase">New product line</div>
+<h2 style="margin: 0; font-size: 40px; line-height: 1.2; font-weight: 700; width: 834px; height: 103px">Introducing Armour Fibre&nbsp;<br><span style="font-size: 36px">Premium Edgeless Microfibre Cloths &amp; Towels</span></h2><p style="margin: 0; font-size: 18px; line-height: 1.65; color: rgba(255,255,255,0.78)"><span style="color: rgba(255, 255, 255, 0.72); font-family: Arial, sans-serif; font-size: 20px; text-align: center">Fights the mess, protects the rest. Superior cleaning performance with our scratch-free edgeless design for home, car, office, and professional use.</span></p><br>
+
+</div>
+<div class="ph" style="width: 260px; height: 110px; border-color: rgba(255,255,255,0.5); color: rgba(255,255,255,0.75); background: rgba(255,255,255,0.05)">[Logo placeholder: Armour Fibre]</div>
+</div>
+<h3 style="margin: 0; font-size: 20px; font-weight: 600">Two products, one premium standard</h3><div style="display: flex; flex-direction: column; gap: 20px">
+
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px">
+<article style="display: flex; gap: 0; border: 1px solid rgba(255,255,255,0.25); border-radius: 12px; overflow: hidden">
+<div class="ph" style="width: 220px; flex-shrink: 0; border: 0; border-right: 1.5px dashed rgba(255,255,255,0.4); color: rgba(255,255,255,0.75); background: rgba(255,255,255,0.05)">[Product photo: Armour Fibre Microfibre Cloth box]</div>
+<div style="display: flex; flex-direction: column; gap: 16px; padding: 28px; flex-grow: 1">
+<div style="align-self: flex-start; padding: 4px 10px; border: 1.5px solid #31BACD; border-radius: 4px; color: #31BACD; font-size: 13px; font-weight: 700">Best Value</div>
+<h4 style="margin: 0; font-size: 20px; font-weight: 600">Premium Edgeless Microfibre Cloth</h4>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); row-gap: 12px; column-gap: 16px; font-size: 15px">
+<div><div style="color: rgba(255,255,255,0.6); font-size: 13px">Size</div>30 × 30cm</div>
+<div><div style="color: rgba(255,255,255,0.6); font-size: 13px">Weight</div>180 GSM, dual-sided</div>
+<div style="grid-column: span 2"><div style="color: rgba(255,255,255,0.6); font-size: 13px">Pack</div>55 cloths per box, 8 boxes per carton</div>
+</div>
+</div>
+</article>
+<article style="display: flex; gap: 0; border: 1px solid rgba(255,255,255,0.25); border-radius: 12px; overflow: hidden">
+<div class="ph" style="width: 220px; flex-shrink: 0; border: 0; border-right: 1.5px dashed rgba(255,255,255,0.4); color: rgba(255,255,255,0.75); background: rgba(255,255,255,0.05)">[Product photo: Armour Fibre Microfibre Towel bag]</div>
+<div style="display: flex; flex-direction: column; gap: 16px; padding: 28px; flex-grow: 1">
+<div style="align-self: flex-start; padding: 4px 10px; border-radius: 4px; background: #31BACD; color: #000; font-size: 13px; font-weight: 700">Pro Choice</div>
+<h4 style="margin: 0; font-size: 20px; font-weight: 600">Premium Edgeless Microfibre Towel</h4>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); row-gap: 12px; column-gap: 16px; font-size: 15px">
+<div><div style="color: rgba(255,255,255,0.6); font-size: 13px">Size</div>40 × 40cm</div>
+<div><div style="color: rgba(255,255,255,0.6); font-size: 13px">Weight</div>360 GSM, ultra-soft plush</div>
+<div style="grid-column: span 2"><div style="color: rgba(255,255,255,0.6); font-size: 13px">Pack</div>36 towels per bag, 4 bags per carton</div>
+</div>
+</div>
+</article>
+</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 24px">
+<h3 style="margin: 0; font-size: 20px; font-weight: 600">Built on 150D/72F yarn technology <span style="font-weight: 400; color: rgba(255,255,255,0.7)">(87% polyester, 13% polyamide)</span></h3>
+<div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1px; background: rgba(255,255,255,0.2); border: 1px solid rgba(255,255,255,0.2); border-radius: 12px; overflow: hidden">
+<div style="display: flex; flex-direction: column; gap: 10px; padding: 28px; background: #000">
+<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#31BACD" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="5"></rect></svg>
+<h4 style="margin: 0; font-size: 18px; font-weight: 600">Edgeless design</h4>
+<p style="margin: 0; font-size: 15px; line-height: 1.6; color: rgba(255,255,255,0.72)">No scratches or swirl marks on any surface, safe for delicate finishes.</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 10px; padding: 28px; background: #000">
+<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#31BACD" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3s6 7 6 11a6 6 0 0 1-12 0c0-4 6-11 6-11z"></path></svg>
+<h4 style="margin: 0; font-size: 18px; font-weight: 600">Highly absorbent</h4>
+<p style="margin: 0; font-size: 15px; line-height: 1.6; color: rgba(255,255,255,0.72)">Soaks up to 7× its own weight in liquid.</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 10px; padding: 28px; background: #000">
+<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#31BACD" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a9 9 0 1 1-3-6.7L21 8"></path><path d="M21 3v5h-5"></path></svg>
+<h4 style="margin: 0; font-size: 18px; font-weight: 600">Re-usable &amp; durable</h4>
+<p style="margin: 0; font-size: 15px; line-height: 1.6; color: rgba(255,255,255,0.72)">Rated for 100+ machine washes without losing effectiveness.</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 10px; padding: 28px; background: #000">
+<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#31BACD" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z"></path><path d="M19 17l.7 2 2 .7-2 .7-.7 2-.7-2-2-.7 2-.7z"></path></svg>
+<h4 style="margin: 0; font-size: 18px; font-weight: 600">Streak &amp; lint free</h4>
+<p style="margin: 0; font-size: 15px; line-height: 1.6; color: rgba(255,255,255,0.72)">Perfect for glass, mirrors, screens and polished automotive finishes.</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 10px; padding: 28px; background: #000">
+<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#31BACD" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 3h6M10 3v6L5 18a2 2 0 0 0 1.7 3h10.6a2 2 0 0 0 1.7-3l-5-9V3"></path><path d="M4 4l16 16"></path></svg>
+<h4 style="margin: 0; font-size: 18px; font-weight: 600">Chemical-free cleaning</h4>
+<p style="margin: 0; font-size: 15px; line-height: 1.6; color: rgba(255,255,255,0.72)">Effective with just water, cutting chemical and paper-towel costs.</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 10px; padding: 28px; background: #000">
+<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#31BACD" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1"></rect><rect x="14" y="3" width="7" height="7" rx="1"></rect><rect x="3" y="14" width="7" height="7" rx="1"></rect><rect x="14" y="14" width="7" height="7" rx="1"></rect></svg>
+<h4 style="margin: 0; font-size: 18px; font-weight: 600">Colour-coded system</h4>
+<p style="margin: 0; font-size: 15px; line-height: 1.6; color: rgba(255,255,255,0.72)">Blue, red, yellow, green and white options to prevent cross-contamination across food, bathroom, general and high-risk areas.</p>
+</div>
+</div>
+</div>
+<p style="margin: 0; font-size: 16px; line-height: 1.65; color: rgba(255,255,255,0.72); width: 1040px">Trusted across automotive detailing, hospitality, healthcare and aged care, food service, marine, aviation, government, janitorial and trade/workshop applications, manufactured to exacting standards and distributed exclusively by Australian Cleaning Rags, a 100% Australian owned and operated company.</p>
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 48px; padding: 36px 40px; border: 1.5px solid #31BACD; border-radius: 12px">
+<p style="margin: 0; font-size: 17px; line-height: 1.6; width: 760px"><strong style="font-weight: 600; color: rgb(49, 186, 205)">Wholesale partners get:</strong> Competitive wholesale pricing and no cost delivery to your customers.</p>
+<a class="btnp" href="https://ws.australiancleaningrags.com.au/armour-fibre/" style="flex-shrink: 0">Explore Armour Fibre Wholesale</a>
+</div>
+</section><section id="wholesale" style="display: flex; flex-direction: column; gap: 48px; padding: 104px 120px; flex-shrink: 0">
+<div style="display: flex; flex-direction: column; gap: 16px; width: 860px">
+<div style="display: inline-flex; align-self: flex-start; align-items: center; gap: 8px; padding: 6px 12px; border-radius: 4px; background: #000; color: #fff; font-size: 13px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase">For wholesale buyers</div>
+<h2 style="margin: 0; font-size: 36px; line-height: 1.2; font-weight: 700">Wholesale Cleaning Rags, Made Simple</h2>
+<p style="margin: 0; font-size: 18px; line-height: 1.65; color: #737373">Looking for wholesale cleaning rags, t-shirt rags in bulk, or towel rags wholesale? Here's exactly how ordering bulk cleaning rags works with us, in four steps:</p>
+</div>
+<ol style="margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 24px">
+<li style="display: flex; flex-direction: column; gap: 12px; padding: 28px; border-top: 3px solid #31BACD; background: rgba(115,115,115,0.07); border-radius: 0 0 10px 10px">
+<div style="font-size: 40px; font-weight: 700">1</div>
+<h3 style="margin: 0; font-size: 19px; font-weight: 600">Tell us your needs</h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.6; color: #737373">Enquire online or call and tell us your product, volume and industry.</p>
+</li>
+<li style="display: flex; flex-direction: column; gap: 12px; padding: 28px; border-top: 3px solid #31BACD; background: rgba(115,115,115,0.07); border-radius: 0 0 10px 10px">
+<div style="font-size: 40px; font-weight: 700">2</div>
+<h3 style="margin: 0; font-size: 19px; font-weight: 600">Get a tailored quote</h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.6; color: #737373">Receive a bulk quote within one business day.</p>
+</li>
+<li style="display: flex; flex-direction: column; gap: 12px; padding: 28px; border-top: 3px solid #31BACD; background: rgba(115,115,115,0.07); border-radius: 0 0 10px 10px">
+<div style="font-size: 40px; font-weight: 700">3</div>
+<h3 style="margin: 0; font-size: 19px; font-weight: 600">Choose your bag size</h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.6; color: #737373">1 pallet minimum: 111 × 5kg, 72 × 10kg, 45 × 15kg, 36 × 20kg, or 24 × 25kg bags.</p>
+</li>
+<li style="display: flex; flex-direction: column; gap: 12px; padding: 28px; border-top: 3px solid #31BACD; background: rgba(115,115,115,0.07); border-radius: 0 0 10px 10px">
+<div style="font-size: 40px; font-weight: 700">4</div>
+<h3 style="margin: 0; font-size: 19px; font-weight: 600">Fast, nationwide dispatch</h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.6; color: #737373">Orders leave our warehouse within 24 hours, on Australian Standard Pallets.</p>
+</li>
+</ol>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 64px">
+<div style="display: flex; flex-direction: column; gap: 16px">
+<h3 style="margin: 0; font-size: 20px; font-weight: 600">Pallet Options Available</h3>
+<table class="tbl">
+<thead><tr><th>Bag Size</th><th>Bags per Pallet</th><th>Popularity</th></tr></thead>
+<tbody>
+<tr><td style="font-weight: 600">5kg</td><td>111 bags</td><td></td></tr>
+<tr style="background: rgba(49,186,205,0.12)"><td style="font-weight: 700">10kg</td><td style="font-weight: 600">72 bags</td><td><span style="display: inline-flex; align-items: center; gap: 6px; font-size: 14px; font-weight: 600"><svg width="16" height="16" viewBox="0 0 24 24" fill="#31BACD" stroke="#000" stroke-width="1.2" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.3 6.5 20.2l1-6.2L3 9.6l6.2-.9z"></path></svg>Most popular, easiest to handle</span></td></tr>
+<tr><td style="font-weight: 600">15kg</td><td>45 bags</td><td></td></tr>
+<tr><td style="font-weight: 600">20kg</td><td>36 bags</td><td></td></tr>
+<tr><td style="font-weight: 600; border-bottom: 0">25kg</td><td style="border-bottom: 0">24 bags</td><td style="border-bottom: 0"></td></tr>
+</tbody>
+</table>
+</div>
+<div style="display: flex; flex-direction: column; gap: 28px; padding-top: 44px">
+<div style="display: flex; gap: 16px">
+<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex-shrink: 0"><rect x="3" y="4" width="18" height="17" rx="2"></rect><path d="M3 9h18M8 2v4M16 2v4"></path></svg>
+<p style="margin: 0; font-size: 16px; line-height: 1.6"><strong style="font-weight: 600">Payment terms:</strong> <span style="color: #737373">30-day payment terms from invoice date once your account is approved and opened, easing pressure on your cash flow.</span></p>
+</div>
+<div style="display: flex; gap: 16px">
+<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex-shrink: 0"><path d="M9 11l3 3 8-8"></path><path d="M20 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h11"></path></svg>
+<p style="margin: 0; font-size: 16px; line-height: 1.6"><strong style="font-weight: 600">Quality consistency:</strong> <span style="color: #737373">We audit our suppliers regularly, so every order matches the last, with no surprises when it reaches your machinery or your customers.</span></p>
+</div>
+<div style="display: flex; gap: 16px">
+<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex-shrink: 0"><path d="M1 5h14v11H1zM15 9h4l4 4v3h-8z"></path><circle cx="6" cy="18" r="2"></circle><circle cx="18" cy="18" r="2"></circle></svg>
+<p style="margin: 0; font-size: 16px; line-height: 1.6"><strong style="font-weight: 600">Delivery:</strong> <span style="color: rgb(115, 115, 115)">Interstate freight arranged Australia-wide&nbsp;</span></p>
+</div>
+</div>
+</div>
+<!-- Wholesale enquiry form -->
+<div id="quote" style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 64px; padding: 56px; background: #000; color: #fff; border-radius: 14px">
+<div style="display: flex; flex-direction: column; gap: 20px">
+<h3 style="margin: 0; font-size: 28px; font-weight: 600">Get a Wholesale Quote</h3>
+<p style="margin: 0; font-size: 17px; line-height: 1.65; color: rgba(255,255,255,0.78)">Tell us your product, volume and industry. You'll receive a bulk quote within one business day.</p>
+<div style="height: 1px; background: rgba(255,255,255,0.2)"></div>
+<div style="font-size: 14px; color: rgba(255,255,255,0.7)">Or call our wholesale team</div>
+<a href="tel:1300007247" style="display: inline-flex; align-items: center; gap: 12px; font-size: 32px; font-weight: 700; color: #31BACD; text-decoration: none">
+<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#31BACD" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"></path></svg>
+1300 007 247</a>
+<a href="mailto:info@australiancleaningrags.com.au" style="font-size: 16px; color: #fff">info@australiancleaningrags.com.au</a>
+</div>
+<form aria-label="Wholesale enquiry" style="display: flex; flex-direction: column; gap: 16px; padding: 32px; background: #fff; color: #000; border-radius: 10px">
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px">
+<label class="field">Name<input type="text" name="name" autocomplete="name"></label>
+<label class="field">Company<input type="text" name="company" autocomplete="organization"></label>
+<label class="field">Mobile<input type="tel" name="mobile" autocomplete="tel"></label>
+<label class="field">Email<input type="email" name="email" autocomplete="email"></label>
+</div>
+<label class="field">Message<textarea name="message" rows="4" placeholder="Product, volume and industry"></textarea></label>
+<button type="button" class="btnp" onClick="{{ submitQuote }}" style="width: 100%; font-family: 'Open Sans', sans-serif; cursor: pointer">Get a Wholesale Quote</button>
+<sc-if value="{{ submitted }}" hint-placeholder-val="{{ false }}">
+<div style="font-size: 14px; color: #737373; text-align: center">[Form handler to be connected; enquiry routing TBC]</div>
+</sc-if>
+</form>
+</div>
+</section>
+
+<!-- RETAIL -->
+<section id="retail" style="display: flex; flex-direction: column; gap: 48px; padding: 104px 120px; background: rgba(49,186,205,0.1); flex-shrink: 0">
+<div style="display: flex; gap: 64px; align-items: flex-start">
+<div style="display: flex; flex-direction: column; gap: 20px; width: 700px; flex-shrink: 0">
+<div style="display: inline-flex; align-self: flex-start; padding: 6px 12px; border-radius: 4px; background: #31BACD; color: #000; font-size: 13px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase">For retail buyers</div>
+<h2 style="margin: 0; font-size: 36px; line-height: 1.2; font-weight: 700">Buying Retail? Cleaning Rags &amp; Cotton Cloths for Sale, No Pallet Required</h2>
+<p style="margin: 0; font-size: 18px; line-height: 1.65; color: #000">Not every business needs a pallet. If you're searching for cleaning rags for sale, cotton cleaning cloths, or a lint free rag for a specific job, our retail shop is built for exactly that:</p>
+<ul style="margin: 8px 0 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 18px">
+<li style="display: flex; gap: 14px"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex-shrink: 0; margin-top: 1px"><path d="M5 12l5 5 9-10"></path></svg><p style="margin: 0; font-size: 16px; line-height: 1.6"><strong style="font-weight: 600">Order in small quantity</strong>,  no pallet minimums, no overcommitting to stock you don't need.</p></li>
+<li style="display: flex; gap: 14px"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex-shrink: 0; margin-top: 1px"><path d="M5 12l5 5 9-10"></path></svg><p style="margin: 0; font-size: 16px; line-height: 1.6"><strong style="font-weight: 600">The same trusted quality</strong>: the identical metal-detected, lint free cotton cloths and Armour Fibre microfibre our wholesale partners rely on, just in smaller quantities.</p></li>
+<li style="display: flex; gap: 14px"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex-shrink: 0; margin-top: 1px"><path d="M5 12l5 5 9-10"></path></svg><p style="margin: 0; font-size: 16px; line-height: 1.6"><strong style="font-weight: 600">Expert product matching</strong>: not sure which rag or cloth suits your surface or industry? We'll help you choose the right one the first time, so you're not guessing or wasting money on the wrong wiper.</p></li>
+<li style="display: flex; gap: 14px"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex-shrink: 0; margin-top: 1px"><path d="M5 12l5 5 9-10"></path></svg><p style="margin: 0; font-size: 16px; line-height: 1.6"><strong style="font-weight: 600">Fast turnaround</strong>: quick dispatch within 24 hours or same-day delivery in Sydney Metro</p></li>
+<li style="display: flex; gap: 14px"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex-shrink: 0; margin-top: 1px"><path d="M5 12l5 5 9-10"></path></svg><p style="margin: 0; font-size: 16px; line-height: 1.6"><strong style="font-weight: 600">Satisfaction guaranteed</strong>: not happy with your order? We'll replace or refund it. conditions apply</p></li>
+</ul>
+</div>
+<div style="display: flex; flex-direction: column; gap: 16px; flex-grow: 1">
+<div class="ph" style="height: 340px; border-radius: 12px; background: #fff">[Lifestyle photo: tradie / mechanic using cleaning rags]</div>
+<div class="ph" style="height: 200px; border-radius: 12px; background: #fff">[Product photo: 10kg bag of rags]</div>
+</div>
+</div>
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 48px; padding: 36px 40px; background: #fff; border-radius: 12px">
+<p style="margin: 0; font-size: 16px; line-height: 1.65; color: #737373; width: 820px">Whether you're a tradie, mechanic, painter, detailer or home user searching for workshop rags, mechanics rags or a simple bag of rags, get the same professional-grade cleaning rags and microfibre the big operators trust, without the bulk commitment.</p>
+<div style="display: flex; flex-direction: column; gap: 8px; align-items: center; flex-shrink: 0">
+<a class="btnp" href="#" title="[Retail shop URL to be supplied]">Shop the Retail Range Now
+<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+<span style="font-size: 12px; color: #737373">[Retail shop URL to be supplied]</span>
+</div>
+</div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" style="display: flex; flex-direction: column; align-items: center; gap: 48px; padding: 96px 120px; background: rgba(115,115,115,0.07); flex-shrink: 0">
+<h2 style="margin: 0; font-size: 28px; line-height: 1.3; font-weight: 600; text-align: center">Common Questions When Searching for Cleaning Rags</h2>
+<div style="display: flex; flex-direction: column; width: 960px; border-top: 1px solid rgba(115,115,115,0.4)">
+<sc-for list="{{ faqs }}" as="f" hint-placeholder-count="5">
+<div style="border-bottom: 1px solid rgba(115,115,115,0.4)">
+<button type="button" class="faqbtn" onClick="{{ f.toggle }}" aria-expanded="{{ f.expanded }}">
+<span>{{ f.q }}</span>
+<span style="display: flex; align-items: center; justify-content: center; width: 32px; height: 32px; border-radius: 50%; border: 1.5px solid #000; flex-shrink: 0; font-size: 20px; font-weight: 400; line-height: 1">{{ f.sign }}</span>
+</button>
+<sc-if value="{{ f.open }}" hint-placeholder-val="{{ false }}">
+<p style="margin: 0; padding: 0 64px 24px 0; font-size: 16px; line-height: 1.65; color: #737373">{{ f.a }}</p>
+</sc-if>
+</div>
+</sc-for>
+</div>
+</section>
+
+<!-- FINAL CTA -->
+<section id="contact" style="display: flex; flex-direction: column; align-items: center; gap: 24px; padding: 104px 120px; background: #31BACD; text-align: center; flex-shrink: 0">
+<h2 style="margin: 0; font-size: 40px; font-weight: 700">Ready to Order?</h2>
+<div style="margin: 0; font-size: 18px; line-height: 1.65; width: 760px"><p>Quality you can rely on, supply you can count on, and responsible sourcing backed by SMETA and Sedex.</p></div>
+<div style="display: flex; gap: 16px; margin-top: 8px; flex-wrap: wrap; justify-content: center">
+<a href="tel:1300007247" style="display: inline-flex; align-items: center; gap: 10px; min-height: 56px; padding: 0 28px; background: #000; color: #fff; font-weight: 600; font-size: 16px; text-decoration: none; border-radius: 6px">
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"></path></svg>
+Call us now: 1300 007 247</a>
+<a href="#quote" style="display: inline-flex; align-items: center; min-height: 56px; padding: 0 28px; background: #fff; color: #000; font-weight: 600; font-size: 16px; text-decoration: none; border-radius: 6px; border: 2px solid #000; box-sizing: border-box">Submit a wholesale enquiry</a>
+<a href="#" title="[Retail shop URL to be supplied]" style="display: inline-flex; align-items: center; min-height: 56px; padding: 0 28px; background: transparent; color: #000; font-weight: 600; font-size: 16px; text-decoration: none; border-radius: 6px; border: 2px solid #000; box-sizing: border-box">Shop the retail range</a>
+</div>
+<div style="margin: 24px 0 0; font-size: 17px; font-weight: 600"><p><strong>Australian Cleaning Rags &amp; Armour Fibre: Wholesale Reliability. Retail Flexibility. One Trusted Australian Supplier for Every Business.</strong></p></div>
+</section>
+
+<!-- FOOTER -->
+<footer class="foot" style="display: flex; flex-direction: column; gap: 48px; padding: 72px 120px 48px; background: #000; color: #fff; flex-grow: 1">
+<div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 48px">
+<div style="display: flex; flex-direction: column; gap: 16px">
+<div class="ph" style="width: 200px; height: 56px; font-size: 12px; border-color: rgba(255,255,255,0.5); color: rgba(255,255,255,0.75); background: rgba(255,255,255,0.05)">[Logo placeholder: Australian Cleaning Rags]</div>
+<div class="ph" style="width: 200px; height: 56px; font-size: 12px; border-color: rgba(255,255,255,0.5); color: rgba(255,255,255,0.75); background: rgba(255,255,255,0.05)">[Logo placeholder: Armour Fibre]</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 12px; font-size: 15px">
+<div style="font-size: 14px; font-weight: 600; color: rgba(255,255,255,0.6)">Contact</div>
+<a href="tel:1300007247" style="font-weight: 700; font-size: 18px">1300 007 247</a>
+<a href="mailto:info@australiancleaningrags.com.au">info@australiancleaningrags.com.au</a>
+<a href="https://australiancleaningrags.com.au">australiancleaningrags.com.au</a>
+</div>
+<div style="display: flex; flex-direction: column; gap: 12px; font-size: 15px; line-height: 1.6">
+<div style="font-size: 14px; font-weight: 600; color: rgba(255,255,255,0.6)">Warehouse</div>
+<address style="font-style: normal">Warehouse 7, 45–53 Davies Rd<br>Padstow NSW 2211, Australia</address>
+<div style="display: flex; gap: 10px; margin-top: 4px">
+<div class="ph" style="width: 44px; height: 44px; padding: 2px; font-size: 9px; border-color: rgba(255,255,255,0.5); color: rgba(255,255,255,0.75); background: rgba(255,255,255,0.05)">[Social]</div>
+<div class="ph" style="width: 44px; height: 44px; padding: 2px; font-size: 9px; border-color: rgba(255,255,255,0.5); color: rgba(255,255,255,0.75); background: rgba(255,255,255,0.05)">[Social]</div>
+<div class="ph" style="width: 44px; height: 44px; padding: 2px; font-size: 9px; border-color: rgba(255,255,255,0.5); color: rgba(255,255,255,0.75); background: rgba(255,255,255,0.05)">[Social]</div>
+</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 12px; font-size: 15px">
+<div style="font-size: 14px; font-weight: 600; color: rgba(255,255,255,0.6)">Accreditation</div>
+<div class="ph" style="width: 160px; height: 88px; font-size: 12px; border-color: rgba(255,255,255,0.5); color: rgba(255,255,255,0.75); background: rgba(255,255,255,0.05)">[Sedex/SMETA accreditation logo]</div>
+</div>
+</div>
+<div style="display: flex; justify-content: space-between; padding-top: 24px; border-top: 1px solid rgba(255,255,255,0.2); font-size: 14px; color: rgba(255,255,255,0.65)">
+<span>© Australian Cleaning Rags Pty Ltd · ABN 76 602 927 284</span>
+<span>Australian family-owned and operated</span>
+</div>
+</footer>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":8000}}'>
+class Component extends DCLogic {
+  constructor(props) {
+    super(props);
+    this.state = { open: -1, submitted: false };
+  }
+  renderVals() {
+    const data = [
+      { q: "What's the difference between cleaning rags and industrial wiping rags?", a: "“Cleaning rags” is the general term for any wiping cloth; “industrial wiping rags” typically refers to our heavier-duty options (Mixed Cotton, Cotton Waste and Coloured Towel), built for workshops, mining and manufacturing sites handling oil, grease and heavy spills." },
+      { q: "Do you sell lint free cloths?", a: "Yes. Our White T-Shirt Rags and Flannel Cloths are both low-lint, making them ideal wherever a lint free cotton cloth is essential: solvent work, sensitive machinery, glass and precision surfaces." },
+      { q: "Can I buy a small bag of rags, or do I need to order wholesale?", a: "Both. Order a single 10kg bag of rags (or any weight) through our retail shop, or step up to full pallet wholesale pricing once your volumes grow. Same quality rags either way." },
+      { q: "Do you supply cleaning rags Sydney-wide, or Australia-wide?", a: "Australia-wide. We dispatch nationwide (Sydney, Melbourne, Brisbane, Perth and beyond), with orders leaving our Padstow, NSW warehouse within 24 hours." },
+      { q: "Are your rags suitable for mechanics and painters?", a: "Yes. Our Coloured and White T-Shirt Rags are among our most popular mechanics rags and painters rags, chosen for their absorbency and, for solvent and machinery work, metal-detected, lint free construction." },
+      { q: "What happens if an item is out of stock?", a: "We’ll give you a free upgrade to the next higher quality of the product." },
+      { q: "What if we find cheaper rags?", a: "Send us the written quote and we may offer you a 5% discount." }
+    ];
+    const open = this.state.open;
+    return {
+      submitted: this.state.submitted,
+      submitQuote: () => this.setState({ submitted: true }),
+      faqs: data.map((f, i) => ({
+        q: f.q, a: f.a,
+        open: open === i,
+        expanded: open === i ? 'true' : 'false',
+        sign: open === i ? '−' : '+',
+        toggle: () => this.setState({ open: open === i ? -1 : i })
+      }))
+    };
+  }
+}
+</script>
+</body>
+</html>
